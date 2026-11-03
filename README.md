@@ -20,8 +20,25 @@ A machine learning-based student performance tracking application that analyzes 
 - Joblib
 - Google Colab
 
-## Dataset
-Open University Learning Analytics Dataset (OULAD).
+##Dataset
+
+This project uses the Open University Learning Analytics Dataset (OULAD) for training and evaluating the student performance prediction model.
+
+Dataset source: Open University Learning Analytics Dataset (OULAD)
+https://analyse.kmi.open.ac.uk/open_dataset
+The dataset contains student demographics, assessment records, course information and virtual learning environment activity.
+
+Setup
+
+Download the dataset from the official source.
+
+Extract the CSV files.
+
+Place the required files in the appropriate project data directory.
+
+Run the preprocessing and model training notebook.
+
+Note: The original dataset is not included in this GitHub repository. Please download it from the official source.
 
 ## Model Evaluation
 - MAE: 9.31
